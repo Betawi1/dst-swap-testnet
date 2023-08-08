@@ -25,11 +25,7 @@ class BuyForm extends Component {
             onChange={(event) => { 
               const tokenAmount = this.input.value.toString()
               this.setState({
-<<<<<<< HEAD
-                output: tokenAmount * 5
-=======
                 output: tokenAmount * 8
->>>>>>> cef9dd4 (second commit)
               })
             }}
             ref={(input) => { this.input = input }}
@@ -54,30 +50,19 @@ class BuyForm extends Component {
           <div className="input-group-append">
             <div className="input-group-text">
               <img src={tokenLogo} height='32' alt=""/>
-<<<<<<< HEAD
-              &nbsp; DST
-=======
               &nbsp; DSF
->>>>>>> cef9dd4 (second commit)
             </div>
           </div>
         </div>
         <div className="mb-5">
           <span className="float-left text-muted">Exchange Rate</span>
-<<<<<<< HEAD
-          <span className="float-right text-muted">1 DST = 0.20 USDC</span>
-=======
           <span className="float-right text-muted">1 USDC = 8 DSF</span>
->>>>>>> cef9dd4 (second commit)
         </div>
         <button type="submit" className="btn btn-primary btn-block btn-lg" span style={{backgroundColor: "black"}}>
           PURCHASE
           </button>
         <div>
           <br></br>
-<<<<<<< HEAD
-          Your token balance: {this.props.balance} DST
-=======
           Your token balance: {this.props.balance} DSF
           <br></br>
           <br></br>
@@ -85,7 +70,6 @@ class BuyForm extends Component {
           <h6><small>USDC Token address: 0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174</small></h6>
           <h6><small>Network: Polygon (please change your Metamask network to Polygon mainnet before purchasing)</small></h6>
          
->>>>>>> cef9dd4 (second commit)
         </div>
       </form>
     );

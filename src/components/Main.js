@@ -24,11 +24,7 @@ class Main extends Component {
       <div id="content" className="mt-3">
         <div>
           <br></br>
-<<<<<<< HEAD
-          <h1 className="text-white text-center">Purchase DigitalSelf Token ("DST")</h1>
-=======
           <h1 className="text-white text-center">DigitalSelf Token ("DSF") <br/>Private Swap</h1>
->>>>>>> cef9dd4 (second commit)
           <br></br>
           <br></br>
         </div>
