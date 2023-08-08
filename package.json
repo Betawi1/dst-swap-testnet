@@ -2,7 +2,11 @@
   "name": "dst-swap",
   "version": "0.1.0",
   "description": "An Instant DST Swap App",
+<<<<<<< HEAD
   "author": "rashdan.ibrahim@gmail.com",
+=======
+  "author": "rashdan.ibrahim@digital-self.com",
+>>>>>>> cef9dd4 (second commit)
   "dependencies": {
     "@truffle/hdwallet-provider": "1.2.2",
     "@walletconnect/web3-provider": "1.6.6",

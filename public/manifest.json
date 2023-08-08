@@ -1,9 +1,17 @@
 {
+<<<<<<< HEAD
   "short_name": "kyoswap",
   "name": "KyotoSwap",
   "icons": [
     {
       "src": "kyoto-coin-token.ico",
+=======
+  "short_name": "DSFSwap",
+  "name": "DigitalSelf Token Private Swap",
+  "icons": [
+    {
+      "src": "dsf_private_swap.ico",
+>>>>>>> cef9dd4 (second commit)
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     }
